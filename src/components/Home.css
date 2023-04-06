@@ -1,0 +1,108 @@
+*{
+  /* border: 1px solid red; */
+}
+
+.home-container {
+    display: flex;
+}
+
+.content-heading {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-div {
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.heading-div h1{
+    font-family: Montserrat;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.heading-div p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+
+.custom-btn {
+    width: 10rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px #6772e5,
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: rgb(38, 0, 255);
+  background: linear-gradient(0deg, #6772e5 0%, #6772e5 100%);
+  }
+
+    .product-content1 {
+      width: 100%;
+    }
+
+    .product-container {
+      width: 100%;
+    }
+
+    .product-buy-img {
+      width: 100%;
+      padding: 1rem;
+      height: 100%;
+    }
+
+    tr, td, thead {
+      font-family: Montserrat;
+    }
+
+    .product-table {
+      background-color: rgb(163, 197, 222);
+    }
+
+    .image-table {
+      border-top: 1px solid black;
+    }
+
+    td {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .main-search-div {
+      margin: 3rem;
+    }
+
+    .search-thead {
+      margin: 2rem;
+    }
+
+    #productList {
+      margin: 2rem;
+    }
+
+    .search-div-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
